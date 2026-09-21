@@ -12,3 +12,5 @@
 .product-brand small{font-size:8px;color:var(--muted);margin-top:4px;letter-spacing:.15px}
 @media(max-width:1100px){.header .product-brand small{max-width:105px}.header nav{gap:18px}.nav-wrap{gap:15px}}
 @media(max-width:700px){.brand.company-brand{gap:12px}.brand .company-logo{display:block;width:76px;height:60px}.company-logo img{width:128px;left:-28px;top:-11px}.brand .product-brand{display:flex;padding-left:12px}.product-brand strong{font-size:22px}.product-brand small{font-size:7px}.footer-inner .company-brand{width:100%}}
+.core-ci{display:block!important;position:relative;overflow:hidden;width:49px;height:42px;background:white;border-radius:3px;margin:0!important;flex-shrink:0}
+.core-ci img{position:absolute;width:82px;height:auto;max-width:none;left:-17px;top:-7px}
