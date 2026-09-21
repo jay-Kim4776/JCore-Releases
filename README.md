@@ -37,6 +37,8 @@ msiexec /i "C:\Users\사용자이름\Downloads\JCore-1.0.24-x64.msi" /L*V "%TEMP
 
 설치에 실패하면 관리자 명령 프롬프트에서 아래 명령으로 로그를 확인하고 지원 담당자에게 전달하세요.
 
+사용자 매뉴얼: [JCore 사용자 매뉴얼 PDF (한국어, 21쪽)](https://github.com/jay-Kim4776/JCore-Releases/releases/download/v1.0.24/JCore_User_Manual_1.0.24.pdf) — 설치, 계정·인증, 드라이버·태그, OPC/SDK 연결, 라이선스 및 문제 해결 안내.
+
 ```cmd
 notepad "%TEMP%\JCore-install.log"
 ```
