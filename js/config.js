@@ -1,0 +1,16 @@
+/* Public release metadata only. Never put credentials or private repository URLs here. */
+window.JCORE_CONFIG = Object.freeze({
+  githubOwner: 'jay-Kim4776',
+  releaseRepository: 'JCore-Releases',
+  timeoutMs: 6000,
+  fallback: {
+    tag: 'v1.0.24', version: '1.0.24',
+    assets: { runtime: 'JCore-1.0.24-x64.msi', manual: 'JCore_User_Manual_1.0.24.pdf', client: 'JCoreClient.zip', brochure: 'JAYON.pptx' }
+  },
+  assets: {
+    runtime: { names: ['JCore.msi'], pattern: /^JCore-\d+\.\d+\.\d+-x64\.msi$/i },
+    client: { names: ['JCoreClient.zip'], pattern: /^JCoreClient-\d+\.\d+\.\d+\.zip$/i },
+    brochure: { names: ['JCore-Product-Brochure.pdf', 'JAYON.pptx'] },
+    manual: { names: ['JCore-Manual.pdf'], pattern: /^JCore_User_Manual_\d+\.\d+\.\d+\.pdf$/i }
+  }
+});
