@@ -1,5 +1,11 @@
 # JCore Downloads
 
+### 간편 설치 EXE 추가 (2026-09-22)
+[JCore-Setup.exe 다운로드](https://github.com/jay-Kim4776/JCore-Releases/releases/download/v1.0.24/JCore-Setup.exe)
+
+EXE를 더블클릭하고 Windows 관리자 권한 요청을 승인하면 설치 화면이 열립니다. 기존 1.0.24 MSI를 그대로 내장했으며 제품 버전은 변경되지 않습니다. 기존 MSI 직접 설치도 가능합니다. 이 EXE는 아직 코드 서명되지 않아 게시자 확인/SmartScreen 경고가 표시될 수 있습니다. 관리자 자격 증명은 필요합니다.
+
+
 JCore Windows Service 설치 파일 배포 저장소입니다.
 
 ## 다운로드

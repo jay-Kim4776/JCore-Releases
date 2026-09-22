@@ -6,6 +6,7 @@
   const labels = { runtime: '설치 파일 다운로드 ↓', client: 'SDK 다운로드 ↓', brochure: '제품소개서 다운로드 ↓', manual: '매뉴얼 다운로드 ↓' };
   const setText = (selector, text) => document.querySelectorAll(selector).forEach(el => { el.textContent = text; });
   function apply(key, url, version, date) {
+    if (key === 'runtime' && url) setText('[data-format=runtime]', url.toLowerCase().endsWith('.exe') ? 'EXE' : 'MSI');
     if (key === 'brochure' && url) setText('[data-format=brochure]', url.toLowerCase().endsWith('.pptx') ? 'PPTX' : 'PDF');
     document.querySelectorAll(`[data-download="${key}"]`).forEach(el => {
       if (url) { el.href = url; el.removeAttribute('aria-disabled'); el.removeAttribute('tabindex'); }
