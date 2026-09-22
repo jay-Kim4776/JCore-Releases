@@ -14,3 +14,6 @@
 @media(max-width:700px){.brand.company-brand{gap:12px}.brand .company-logo{display:block;width:76px;height:60px}.company-logo img{width:128px;left:-28px;top:-11px}.brand .product-brand{display:flex;padding-left:12px}.product-brand strong{font-size:22px}.product-brand small{font-size:7px}.footer-inner .company-brand{width:100%}}
 .core-ci{display:block!important;position:relative;overflow:hidden;width:49px;height:42px;background:white;border-radius:3px;margin:0!important;flex-shrink:0}
 .core-ci img{position:absolute;width:82px;height:auto;max-width:none;left:-17px;top:-7px}
+/* Transparent symbol blends with the tag engine panel. */
+.core-ci{width:52px;height:52px;background:transparent;border-radius:0;overflow:visible}
+.core-ci img{position:static;width:52px;height:52px;object-fit:contain;filter:brightness(1.65)}
