@@ -4,8 +4,8 @@ window.JCORE_CONFIG = Object.freeze({
   releaseRepository: 'JCore-Releases',
   timeoutMs: 6000,
   fallback: {
-    tag: 'v1.0.25', version: '1.0.25',
-    assets: { runtime: 'JCore-Setup.exe', manual: 'JCore_User_Manual_1.0.25.pdf', client: 'JCoreClient.zip', brochure: 'JAYON.pptx' }
+    tag: 'v1.0.26', version: '1.0.26',
+    assets: { runtime: 'JCore-Setup.exe', manual: 'JCore_User_Manual_1.0.26.pdf', client: 'JCoreClient.zip', brochure: 'JAYON.pptx' }
   },
   assets: {
     runtime: { names: ['JCore-Setup.exe', 'JCore.msi'], pattern: /^JCore-\d+\.\d+\.\d+-x64\.msi$/i },
